@@ -6,6 +6,7 @@
 # @param admin_email is the email address to access metrics
 # @param ip sets the IP of the container
 class babybuddy (
+  String $hostname,
   String $aws_access_key_id,
   String $aws_secret_access_key,
   String $admin_email,
