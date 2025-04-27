@@ -1,0 +1,16 @@
+{
+  "name": "halyard-babybuddy",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure babybuddy instance",
+  "source": "https://github.com/halyard/puppet-babybuddy",
+  "project_page": "https://github.com/halyard/puppet-babybuddy",
+  "issues_url": "https://github.com/halyard/puppet-babybuddy/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+
+  ]
+}
