@@ -13,7 +13,7 @@ class babybuddy (
   String $ip = '172.17.0.4',
 ) {
   nginx::site { $hostname:
-    proxy_target          => 'http://localhost:8081',
+    proxy_target          => "http://${ip}:8080",
     aws_access_key_id     => $aws_access_key_id,
     aws_secret_access_key => $aws_secret_access_key,
     email                 => $admin_email,
